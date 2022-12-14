@@ -1,0 +1,335 @@
+
+        .tab {
+            overflow: hidden;
+            background-color: #f1f1f1;
+            width:120px;
+            height:40px;
+            font-size: 20px;
+            font-weight:bold;
+            font-family:Georgia;
+           }
+        .secondtab{
+            overflow:hiden;
+            background-color: #f1f1f1;
+            width:80px;
+            height:30px;
+            font-size: 15px;
+            font-family:Georgia;
+
+
+        }
+        .firstprestigetab{
+            overflow:hiden;
+            background-color: grey;
+            width:80px;
+            height:30px;
+            font-size: 15px;
+            font-family:Georgia;
+
+
+        }
+        .sectionLeft {
+            float:left;
+            width:60vw
+            
+        }
+   
+       .sectionRight {
+           float: right;
+           width:30vw
+       }
+       .scoreContainer {
+           background-color: rgba(228, 228, 228, 0.695);
+           width:100vw ;
+           font-family:Georgia;
+           color:grey;
+
+       }
+       .prayButton {
+           background-color:grey;
+           transition: all.2s ease-in-out;
+           width: 100%;
+           margin:10px 0px 10px 0px;
+           font-family:Georgia;
+           border-radius: 10px;
+       }
+       .prayButton:hover {
+           background-color: gray;
+           transition: all .2s ease-in-out;
+       }
+       .prayButton #image {
+           width: 25%
+       }
+       .prayButton img {
+           height: 64px;
+           width: 64px
+       }
+       .prayButton #nameandCost p{
+           margin:0px;
+           width: 60%;
+
+       }
+       .prayButton #nameandCost p:first-of-type {
+           font-size:24px;
+           
+       }
+       .wifeContainer{
+        height:80%;
+        width:auto;
+        border-radius:10px;
+        font-family:Georgia;
+
+        background-color:azure;
+        
+
+       }
+
+       .wifeContainer #rank {
+        height: 10%;
+        font-size:24px;
+       }
+       .wifeContainer img {
+        width:128px;
+        height:128px;
+
+       }
+       .wifeContainer #image {
+        height:30%;
+        margin:0px;
+       }
+       .wifeContainer #description {
+        height: 20%;
+       }
+       .wifeContainer #effect {
+        height:15%;
+        font-size:5px;
+       }
+       .wifeContainer #determination {
+        height:10%;
+       }
+       .wifeContainer #unlock {
+        height:15%;
+        font-size: 5px;
+
+       }
+
+
+
+    .upgradeButton #multi {
+        font-size: 48px;
+        width:15%
+    }
+   
+       .shopButton {
+           background-color: aliceblue;
+           transition: all .2s ease-in-out;
+           border-radius:10px;
+           width: 30%;
+           margin:10px 0px 10px 0px;
+           font-family:Georgia;
+           
+
+       }
+       
+       .shopButton:hover {
+           background-color:azure;
+           transition: all .2s ease-in-out;
+       }
+       .shopButton #image {
+           width: 15%
+       }
+       .shopButton img {
+           height: 64px;
+           width: 64px
+       }
+       .shopButton #nameandCost p{
+           margin:0px;
+           width: 60%;
+
+       }
+       .shopButton #nameandCost p:first-of-type {
+           font-size:24px;
+           
+       }
+       .shopButton #gps {
+           font: size 0px;
+       }
+
+       .shopButton #amount {
+           font-size:48px;
+           color: #595959;
+           width:15%
+           
+       }
+       .unselectable {
+           user-select: none;
+           -moz-user-select: none;
+           -ms-user-select: none;
+           -webkit-user-select: none;
+       }
+       .shopButton {
+        background-color: aliceblue;
+        transition: all .2s ease-in-out;
+        border-radius:10px;
+        width: 80%;
+        margin:3px 0px 3px 0px;
+        font-family:Georgia;
+        
+
+    }
+    .upgradeButton {
+        background-color: aliceblue;
+        transition: all .2s ease-in-out;
+        border-radius:10px;
+        width: 80%;
+        margin:10px 0px 10px 0px;
+        font-family:Georgia;
+        
+
+    }
+    
+    
+    .upgradeButton:hover {
+        background-color:azure;
+        transition: all .2s ease-in-out;
+    }
+    .upgradeButton #image {
+        width: 15%
+    }
+    .upgradeButton img {
+        height: 64px;
+        width: 64px
+    }
+    .upgradeButton #nameandCost p{
+        margin:0px;
+        width: 60%;
+
+    }
+    .upgradeButton #nameandCost p:first-of-type {
+        font-size:24px;
+        
+    }
+    .upgradeButton #desc {
+        position:relative;
+        font: size 0px;
+    }
+           
+
+       .invisible {
+           border: 0;
+           clip: rect(0 0 0 0);
+           height: 1px;
+           margin: -1px;
+           overflow: hidden;
+           padding: 0;
+           position: absolute;
+           width: 1px;
+         }
+       .timerContainer {
+           width:100vw;
+           height:auto;
+           font-family:Georgia;
+           font-size:40px;
+           color:black;
+       }
+       .purchasedupgradeButton {
+        background-color: greenyellow;
+        transition: all .2s ease-in-out;
+        border-radius:10px;
+        width: 80%;
+        margin:10px 0px 10px 0px;
+        font-family:Georgia;
+        
+
+        }
+        .purchasedupgradeButton #image {
+            width: 15%
+        }
+        .purchasedupgradeButton img {
+            height: 64px;
+            width: 64px
+        }
+        .purchasedupgradeButton #nameandCost p{
+            margin:0px;
+            width: 60%;
+    
+        }
+        .purchasedupgradeButton #nameandCost p:first-of-type {
+            font-size:24px;
+            
+        }
+        .purchasedupgradeButton #desc {
+            position:relative;
+            font: size 0px;
+        }
+        .purchasedupgradeButton #multi {
+            font-size: 48px;
+            width:15%
+        }
+       .tab button {
+           background-color: inherit;
+           float: left;
+           border: none;
+           outline: none;
+           cursor: pointer;
+           padding: 14px 16px;
+           transition: 0.3s;
+         }
+         
+         /* Change background color of buttons on hover */
+         .tab button:hover {
+           background-color: #ddd;
+         }
+         
+         /* Create an active/current tablink class */
+         .tab button.active {
+           background-color: #ccc;
+         }
+         
+         /* Style the tab content */
+         .tabcontent {
+           display: none;
+           padding: 6px 12px;
+           border-top: none;
+         }
+       .secondtabcontent {
+           display: none;
+           padding: 6px 12px;
+           border-top: none;
+
+       }
+       .secondtab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+      }
+      
+      /* Change background color of buttons on hover */
+      .secondtab button:hover {
+        background-color: #ddd;
+      }
+      
+      /* Create an active/current tablink class */
+      .secondtab button.active {
+        background-color: #ccc;
+      }
+      
+      /* Style the tab content */
+      .secondtabcontent {
+        display: none;
+        padding: 6px 12px;
+        border-top: none;
+      }
+      .button {
+        font-family:Georgia;
+        font-size:12px;
+      }
+      .prestige1button {
+        font-family:Georgia;
+        font-size:18px
+
+      }

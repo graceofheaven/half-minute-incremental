@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Half-Minute Incremental</title>
+    <link rel="stylesheet" href = "main.css">
+</head>
+<body>
+ 
+     
+
+        <center>
+        <div class="timerContainer" id="timer">
+            30.00 
+        </div>
+        </center>
+        
+            
+            
+    
+        <div>
+            <div></div>
+            <center>
+             <div class="scoreContainer unselectable">
+                <p style="font-size:30px;" id="goldMined">Gold: 0</p>
+                <p> GPS: <span id="GPS">0</span> /s</p>
+            </div>
+            </center>
+    
+            
+    
+        </div>
+    
+    
+        <button class="tab" onclick="openTab(event,'Main')" id="defaultFirst">Main</button>
+        <button class="tab" onclick="openTab(event,'Option')" >Option</button>
+        <button class="tab" onclick="openTab(event,'Upgrade')">Upgrade</button>
+    
+        
+        <div id="Main" class="tabcontent" id = "defaultFirst">
+            <div class="sectionLeft" id="shopContainer"></div>
+    
+            <div class="sectionRight" id="Prayer"></div>
+            <div class="sectionRight" id="wifeContainer"> </div>
+            
+        
+        
+            
+        </div>
+    
+      
+        <div id="Option" class="tabcontent"> 
+            <div class = "sectionLeft" id="musicPlayer"></div>
+
+            <div class = "sectionLeft">
+    
+                <button onclick = "saveGame()"> Save game</button>
+                <button onclick = "wipeSave()"> Wipe save</button>
+    
+            </div>
+      
+        </div>
+    
+        <div id="Upgrade" class="tabcontent" id = "defaultFirst">
+            <button class="secondtab" onclick="openSecondTab(event,'General')">General</button>
+            <button class="firstprestigetab" onclick="openSecondTab(event,'Prestige')" background-color:grey>Prestige</button>
+
+            <div id="General" class="secondtabcontent" id="defaultOpen"> 
+                <div class="sectionLeft" id="upgradeContainer"></div>   
+          
+            </div>
+            <div id="Prestige" class="secondtabcontent" > 
+                <div id ="Prestige1"></div>
+                
+                
+          
+            </div>
+
+        </div>
+        
+
+    
+    
+    
+ <script src="main.js" charset="utf-8" type="text/javascript"></script>
+ <script src="tab.js" charset="utf-8" type="text/javascript"></script>
+ <script src="secondtab.js" charset="utf-8" type="text/javascript"></script>
+
+</body>
+</html>
